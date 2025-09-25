@@ -30,7 +30,7 @@ Zeige deine Links, Projekte oder GitHub-Repos auf deiner eigenen Website – ele
 
 1. Repository klonen:
 ```bash
-git clone [<dein-repo-url>](https://github.com/44erxyz/linktree-selfhost.git)
+git clone https://github.com/44erxyz/linktree-selfhost.git
 cd github-linktree-oop
 Abhängigkeiten installieren:
 
