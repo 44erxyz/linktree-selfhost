@@ -1,0 +1,4 @@
+[
+    { "id": "1", "title": "Website", "url": "https://example.com", "emoji": "🌐" },
+    { "id": "2", "title": "Docs", "url": "https://example.com/docs", "emoji": "📚" }
+]
