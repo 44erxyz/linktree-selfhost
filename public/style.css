@@ -1,0 +1,34 @@
+/* Template 1: Modern */
+.template-modern .link {
+    display: block;
+    margin: 16px 0;
+    padding: 14px 24px;
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background 0.2s, transform 0.2s;
+}
+.template-modern .link:hover {
+    background: #4f8cff;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Template 2: Pastell */
+.template-pastel .link {
+    display: block;
+    margin: 16px 0;
+    padding: 14px 24px;
+    background: #ffe0ec;
+    color: #4f2e5e;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: box-shadow 0.2s, color 0.2s;
+}
+.template-pastel .link:hover {
+    box-shadow: 0 4px 16px #f8b4d8;
+    color: #d72660;
+}
