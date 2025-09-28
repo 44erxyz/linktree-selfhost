@@ -1,76 +1,36 @@
-# Linktree Selfhost
+# 🚀 GitHub Linktree Self-Hosted
 
-**Ein einfaches, aber schönes Linktree-Selfhost-Projekt**
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Node.js](https://img.shields.io/badge/Node.js-20.x-green)](https://nodejs.org/)  
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue)](https://www.typescriptlang.org/)  
+[![Express](https://img.shields.io/badge/Express-4.18-yellow)](https://expressjs.com/)  
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple)](https://getbootstrap.com/)
 
-## Beschreibung
-Das Linktree Selfhost-Projekt ist eine benutzerfreundliche, selbstgehostete Plattform, mit der du eine personalisierte Linktree-Seite erstellen kannst. Es bietet eine ansprechende Benutzeroberfläche und ist einfach einzurichten. Dieses Projekt ist ideal für Personen, die ihre Links zentralisieren und präsentieren möchten, ohne auf externe Plattformen angewiesen zu sein.
+Ein modernes **self-hosted Linktree**, gebaut mit **OOP-Architektur**, **TypeScript**, **Express** und **Bootstrap 5**.  
+Zeige deine Links, Projekte oder GitHub-Repos auf deiner eigenen Website – elegant, responsive und modern.
 
----
 
-## Features
-- **Selbstgehostet**: Volle Kontrolle über deine Daten.
-- **Moderne Benutzeroberfläche**: Basierend auf Bootstrap 5 für ein ansprechendes Design.
-- **Einfach einzurichten**: Minimaler Aufwand für die Installation und Konfiguration.
-- **Anpassbar**: Erstelle eine einzigartige Linktree-Seite, die zu deinem Stil passt.
-- **Technologien**:
-  - **TypeScript**: Für sauberen und skalierbaren Code.
-  - **Bootstrap 5**: Für responsives und modernes Design.
+![Screenshot](img.png)
+
+
 
 ---
 
-## Themen
-- bootstrap5
-- easy
-- frontend
-- linktree
-- portfolio
-- selfhosted
-- user-interface
+## ⚡ Features
+
+- **Self-hosted** – volle Kontrolle über deine Links
+- **OOP-Architektur** – sauberer, wartbarer Code
+- **REST API** – Links programmatisch verwalten
+- **Bootstrap 5 UI** – modern, responsive, mobilfreundlich
+- **GitHub Repo Integration** – Avatar, Repo-Name, Beschreibung, Sterne & Forks
+- **JSON-Datenbank** – einfache Speicherung ohne Datenbank
 
 ---
 
-## Installation
+## 🛠 Installation
 
-### Voraussetzungen
-- Node.js (Version 16 oder höher)
-- Ein Paketmanager wie npm oder yarn
-- Ein Webserver oder Hosting-Dienst
-
-### Schritte
-1. **Repository klonen**:
-   ```bash
-   git clone https://github.com/44erxyz/linktree-selfhost.git
-   cd linktree-selfhost
-   ```
-2. **Abhängigkeiten installieren**:
-   ```bash
-   npm install
-   ```
-3. **Projekt starten**:
-   ```bash
-   npm run start
-   ```
-4. **Zugriff auf die Anwendung**: Öffne einen Browser und gehe zu `http://localhost:3000`.
-
----
-
-## Nutzung
-1. **Anpassung**:
-   - Bearbeite die `config.json`, um deine Links und Informationen hinzuzufügen.
-2. **Design ändern**:
-   - Passe die CSS-Dateien im Ordner `styles/` an, um das Design zu personalisieren.
-
----
-
-## Beiträge
-Beiträge sind willkommen! Lies die [CONTRIBUTING.md](https://github.com/44erxyz/linktree-selfhost/blob/main/CONTRIBUTING.md), um zu erfahren, wie du mithelfen kannst.
-
----
-
-## Lizenz
-> Dieses Projekt hat aktuell keine Lizenz. Füge eine passende Lizenz hinzu, um Beiträge zu erleichtern.
-
----
-
-## Kontakt
-Erstellt von [44erxyz](https://github.com/44erxyz). Bei Fragen oder Anfragen kannst du ein Issue auf GitHub eröffnen.
+1. Repository klonen:
+```bash
+git clone https://github.com/44erxyz/linktree-selfhost.git
+cd github-linktree-oop
+Abhängigkeiten installieren:
