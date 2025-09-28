@@ -1,34 +1,104 @@
-/* Template 1: Modern */
-.template-modern .link {
-    display: block;
-    margin: 16px 0;
-    padding: 14px 24px;
-    background: #222;
-    color: #fff;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: background 0.2s, transform 0.2s;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    /* Animiertes Gitter als Hintergrund */
+    background-color: #181c20;
+    background-image:
+            linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
+            linear-gradient(180deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: gridmove 6s linear infinite;
 }
-.template-modern .link:hover {
-    background: #4f8cff;
+@keyframes gridmove {
+    0% { background-position: 0 0, 0 0; }
+    100% { background-position: 40px 40px, 40px 40px; }
+}
+.card-linktree {
+    background: rgba(255,255,255,0.95);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+    padding: 2.5rem 2rem 2rem 2rem;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    border: 4px solid #0d6efd;
+    box-shadow: 0 4px 16px rgba(13,110,253,0.15);
+}
+.links .btn {
+    width: 100%;
+    font-size: 1.15rem;
+    margin-bottom: 0.7rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(13,110,253,0.07);
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+.links .btn:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 18px rgba(13,110,253,0.15);
+}
+.repo-info {
+    margin-top: 2rem;
+    text-align: center;
+    color: #495057;
+    font-size: 1.05rem;
+}
+@media (max-width: 500px) {
+    .card-linktree {
+        padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+    }
+    .avatar {
+        width: 90px;
+        height: 90px;
+    }
+}
+/* Dunkler Gradient-Button */
+.links .btn {
+    background: linear-gradient(90deg, #232a3b 0%, #2e4a4e 100%);
     color: #fff;
-    transform: scale(1.05);
+    border: none;
+    border-radius: 18px;
+    font-weight: 600;
+    box-shadow: 0 2px 12px rgba(35,42,59,0.18);
+    transition: transform 0.15s, box-shadow 0.15s, background 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+.links .btn:hover, .links .btn:focus {
+    background: linear-gradient(90deg, #2e4a4e 0%, #232a3b 100%);
+    color: #fff;
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 8px 24px 0 rgba(35,42,59,0.28), 0 0 0 4px #2e4a4e33;
 }
 
-/* Template 2: Pastell */
-.template-pastel .link {
-    display: block;
-    margin: 16px 0;
-    padding: 14px 24px;
-    background: #ffe0ec;
-    color: #4f2e5e;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 1.2em;
-    transition: box-shadow 0.2s, color 0.2s;
+/* Dunkle Card mit Glas-Effekt */
+.card-linktree {
+    background: rgba(30,34,40,0.85);
+    border-radius: 28px;
+    box-shadow: 0 12px 40px 0 rgba(20,24,32,0.32);
+    padding: 2.7rem 2.2rem 2.2rem 2.2rem;
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    border: 1.5px solid rgba(60,70,90,0.25);
 }
-.template-pastel .link:hover {
-    box-shadow: 0 4px 16px #f8b4d8;
-    color: #d72660;
+#username {
+    background: linear-gradient(90deg, #4f8cff 0%, #a259ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
 }
