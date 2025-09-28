@@ -10,6 +10,7 @@ Ein modernes **self-hosted Linktree**, gebaut mit **OOP-Architektur**, **TypeScr
 Zeige deine Links, Projekte oder GitHub-Repos auf deiner eigenen Website – elegant, responsive und modern.
 
 
+![Screenshot](img.png)
 
 
 
